@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <form class="hidden" id="login-form" >
+    <input required maxlength="15" type="text" placeholder="What is your name?"  />
+    <input type="submit" value="Log in" />
+  </form>
+  <h2 id="clock" class='clock'>00:00</h2>
+  <h1 id="greeting" class="greeting" class="hidden"></h1>
+  <form method=get action="http://www.google.co.kr/search" target="_blank">
+    <table>
+      <tr>
+        <Td>
+          <input type="text" name="q" size=40  class="search" value=""/>
+          <input type="submit" name="btnG" value="검색"/>
+        </Td>
+      </tr>
+    </table>
+  </form>
+ 
+  <div id="quote" class="quote">
+    <span></span><br> 
+    <span></span>
+  </div>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  <script src="JS/greeting.js"></script>
+  <script src="JS/clock.js"></script>
+  <script src="JS/quotes.js"></script>
+  <script src="JS/bakcground.js"></script>
+</body>
+</html>

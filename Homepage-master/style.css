@@ -1,0 +1,53 @@
+.hidden {
+  display: none;
+}
+body{
+  background-image: url('img/1.jpg');
+  background-color: #d9e5ff;
+}
+.clock{
+  margin-left: 1450px;
+  color:white;
+  font-size:10pt
+}
+.greeting{
+  color:white;
+  font-size:20pt;
+  text-align:center;
+  margin-top:200px;
+}
+.quote{
+  color:white;
+  font-size:10pt;
+  text-align:center;
+  margin-top:300px;
+}
+.search {
+height: 35px;
+border-radius: 10px;
+
+}
+.search input {
+  width: 80%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px black solid;
+  border-radius: 5px;
+  margin-left:35%;
+}
+
+.search button {
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+}
+table{
+  margin:auto;
+
+}
